@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10sp" android:orientation="vertical">
+	
+	<Button android:layout_height="wrap_content" android:id="@+id/ListenButton"
+		android:layout_width="fill_parent" android:text="Enable discoverability"></Button>
+	
+	<Button android:layout_height="wrap_content" android:text="Search for remote devices"
+		android:layout_width="fill_parent" android:id="@+id/SearchButton"></Button>
+	
+	<ListView android:layout_height="wrap_content" android:id="@+id/RemoteListView"
+		android:layout_width="fill_parent"></ListView>
+		
+</LinearLayout>
